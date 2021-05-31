@@ -51,6 +51,7 @@
             this.rehacerCtrlSToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.CompilaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.codigoDelSoftwareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label2 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -62,7 +63,6 @@
             this.c4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.codigoDelSoftwareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -268,6 +268,13 @@
             this.acercaDeToolStripMenuItem1.Size = new System.Drawing.Size(80, 20);
             this.acercaDeToolStripMenuItem1.Text = "Acerca de...";
             // 
+            // codigoDelSoftwareToolStripMenuItem
+            // 
+            this.codigoDelSoftwareToolStripMenuItem.Name = "codigoDelSoftwareToolStripMenuItem";
+            this.codigoDelSoftwareToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.codigoDelSoftwareToolStripMenuItem.Text = "Codigo del Software";
+            this.codigoDelSoftwareToolStripMenuItem.Click += new System.EventHandler(this.codigoDelSoftwareToolStripMenuItem_Click);
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -382,12 +389,6 @@
             this.label3.Size = new System.Drawing.Size(208, 24);
             this.label3.TabIndex = 25;
             this.label3.Text = "ANALIZADOR LÉXICO";
-            // 
-            // codigoDelSoftwareToolStripMenuItem
-            // 
-            this.codigoDelSoftwareToolStripMenuItem.Name = "codigoDelSoftwareToolStripMenuItem";
-            this.codigoDelSoftwareToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
-            this.codigoDelSoftwareToolStripMenuItem.Text = "Codigo del Software";
             // 
             // Form1
             // 

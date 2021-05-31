@@ -5,6 +5,7 @@
     using System.Windows.Forms;
     using System.Text.RegularExpressions;
     using System.IO;
+    using System.Diagnostics;
     public partial class Form1 : Form
     {
         public Form1()
@@ -1700,6 +1701,22 @@
         private void archivoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void codigoDelSoftwareToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Para consultar el código del proyecto, al aceptar éste mensaje, " +
+                "se abrirá en su navegador una ventana que le mostrara el repositorio GitHub " +
+                "donde se encuentra el código.\nSi no quiere consultarlo, solo cierre ésta ventana.",
+              "Repositorio GitHub:",
+              MessageBoxButtons.YesNo,
+              MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Process.Start(@"https://github.com/keylacarrera/Compilador-2021.git");
+            }
+
+     
+            //https://github.com/keylacarrera/Compilador-2021.git
         }
     }
 }
