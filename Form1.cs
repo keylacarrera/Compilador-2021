@@ -1697,12 +1697,6 @@
 
             
         }
-
-        private void archivoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void codigoDelSoftwareToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Para consultar el código del proyecto, al aceptar éste mensaje, " +
@@ -1712,11 +1706,9 @@
               MessageBoxButtons.YesNo,
               MessageBoxIcon.Question) == DialogResult.Yes)
             {
+                //direccion repositorio GitHub keylacarrera
                 Process.Start(@"https://github.com/keylacarrera/Compilador-2021.git");
             }
-
-     
-            //https://github.com/keylacarrera/Compilador-2021.git
         }
     }
 }

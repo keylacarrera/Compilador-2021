@@ -146,7 +146,7 @@
             this.acercaDeToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(976, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(592, 24);
             this.menuStrip1.TabIndex = 18;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -163,7 +163,6 @@
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem.Text = "Archivo";
-            this.archivoToolStripMenuItem.Click += new System.EventHandler(this.archivoToolStripMenuItem_Click);
             // 
             // nuevoToolStripMenuItem
             // 
@@ -197,7 +196,7 @@
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
-            this.salirToolStripMenuItem.Text = "Shif";
+            this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // ediciónToolStripMenuItem
@@ -335,6 +334,7 @@
             this.dataGridView1.RowHeadersWidth = 15;
             this.dataGridView1.Size = new System.Drawing.Size(383, 541);
             this.dataGridView1.TabIndex = 15;
+            this.dataGridView1.Visible = false;
             // 
             // c1
             // 
@@ -394,7 +394,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(976, 570);
+            this.ClientSize = new System.Drawing.Size(592, 570);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.richTextBox1);
@@ -450,8 +450,8 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem convertirAMayúsculasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem convertirAMinúsculasToolStripMenuItem;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ToolStripMenuItem codigoDelSoftwareToolStripMenuItem;
+        private System.Windows.Forms.Label label3;
     }
 }
 
